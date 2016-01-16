@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YY MusicPlayer</string>
+    <string name="app_register">注册</string>
+    <string name="app_server">云端服务器</string>
+    <string name="hello_world">Hello!</string>
+    <string name="action_settings">关于</string>
+    <string name="register">新用户？<a href="#" mce_href="#">注册</a></string>
+    <string name="front_name">主界面</string>
+    <string name="error"><a href="#" mce_href="#">无法登陆？</a></string>
+    <string name="uname">用户名：</string>
+    <string name="pword">密码：</string>
+    <string name="log_in">登录服务器</string>
+    <string name="un">请在这里输入用户名</string>
+    <string name="registe">注册</string>
+    <string name="username">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="repassword">确认密码：</string>
+    <string name="address">邮箱地址：</string>
+    <string name="update">更新MP3列表</string>
+    <string name="about">关于</string>
+    <string name="title_activity_player">YY 音乐</string>
+    <string name="title_activity_local">本地</string>
+    <string name="title_section1">本地音乐列表</string>
+    <string name="title_section2">歌手信息</string>
+    <string name="title_section3">设置</string>
+    <string name="title_activity_play">播放界面</string>
+</resources>

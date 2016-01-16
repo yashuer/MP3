@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="459dp" >
+
+        <EditText
+            android:id="@+id/rname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="19dp"
+            android:layout_marginTop="14dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/rname"
+            android:layout_alignBottom="@+id/rname"
+            android:text="@string/uname" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rword2"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/rword1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rname"
+            android:layout_below="@+id/rname"
+            android:layout_marginTop="15dp"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/rword2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rword1"
+            android:layout_below="@+id/rword1"
+            android:layout_marginTop="15dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/address"
+            android:layout_alignBottom="@+id/address"
+            android:text="@string/address" />
+
+        <Button
+            android:id="@+id/registe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/address"
+            android:layout_marginBottom="78dp"
+            android:layout_marginRight="43dp"
+            android:shadowColor="#00ffff"
+            android:text="@string/registe" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/rword2"
+            android:layout_alignBottom="@+id/rword2"
+            android:layout_alignParentLeft="true"
+            android:text="@string/repassword" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/rword1"
+            android:layout_alignBottom="@+id/rword1"
+            android:layout_alignParentLeft="true"
+            android:text="@string/password" />
+
+    </RelativeLayout>
+
+</LinearLayout>

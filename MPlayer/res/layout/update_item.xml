@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="8dip" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="150dp"
+        android:layout_height="40dip"
+        android:layout_weight="2"
+        android:textColor="#005577"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/singer"
+        android:layout_width="100dp"
+        android:layout_height="40dip"
+        android:layout_weight="1"
+        android:textColor="#225577"
+        android:textSize="10pt" />
+
+</LinearLayout>

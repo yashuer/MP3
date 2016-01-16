@@ -1,0 +1,109 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back0"
+    tools:context="yy.musicplayer.MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:padding="15dp"
+                android:ems="10"
+                android:hint="@string/un"
+                android:inputType="text"
+                android:textSize="17dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/username"
+                android:layout_below="@+id/username"
+                android:layout_marginRight="20dp"
+                android:padding="15dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/uname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/username"
+                android:layout_alignBottom="@+id/username"
+                android:text="@string/uname"
+                android:textColor="#00ffff"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/pword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/password"
+                android:layout_alignBottom="@+id/password"
+                android:text="@string/pword"
+                android:textColor="#00ffff"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/log_in_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/password"
+                android:layout_marginTop="50dp"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="@string/log_in" />
+
+            <Button
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/log_in_btn"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="50dp"
+                android:text="跳转本地播放界面" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="16dp"
+            android:text="@string/error"
+            android:textColor="#aa0000"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/error"
+            android:layout_alignBottom="@+id/error"
+            android:layout_alignParentRight="true"
+            android:text="@string/register"
+            android:textColor="#0000ff"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
+</FrameLayout>
